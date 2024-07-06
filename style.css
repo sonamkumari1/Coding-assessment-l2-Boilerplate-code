@@ -1,0 +1,171 @@
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: white;
+  }
+  
+  h1 {
+    font-size: 70px;
+  }
+  
+  .tabs {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .tablink {
+    width: 300px;
+    height: 80px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+  
+    border-radius: 7px;
+    margin-right: -7px;
+  }
+  
+  .tablink.active {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .tabcontent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border-radius: 10px;
+    position: relative;
+    margin-left: 25px;
+  }
+  
+  .product-card img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .badge {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 22px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+  }
+  
+  .product-title {
+    margin-right: 15px;
+    font-size: 35px;
+  }
+  
+  .vendor {
+    font-size: 22px;
+  }
+  
+  .price {
+    margin-left: 12px;
+    font-size: 24px;
+  }
+  
+  .compare-price {
+    margin-left: 12px;
+    text-decoration: line-through;
+    color: grey;
+    font-size: 24px;
+  }
+  
+  .discount {
+    margin-left: 12px;
+    font-size: 24px;
+    color: red;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  /* Responsive styles */
+  
+  /* Mobile Screen: Up to 767px */
+  @media (max-width: 767px) {
+    .tablink {
+      width: 100%;
+      font-size: 20px;
+      height: 50px;
+    }
+  
+    .product-card {
+      margin: 10px; 
+    }
+  
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .product-title {
+      font-size: 25px;
+    }
+  
+    .vendor,
+    .price,
+    .compare-price,
+    .discount {
+      font-size: 18px;
+    }
+  
+    .add-to-cart-btn {
+      padding: 20px;
+      font-size: 20px;
+    }
+  }
+  
+  /* Tablet Screen: 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .tablink {
+      width: 45%;
+      font-size: 22px;
+      height: 60px;
+    }
+  
+    .product-card img {
+      width: 80%;
+      height: auto;
+    }
+  
+    .product-title {
+      font-size: 30px;
+    }
+  
+    .vendor,
+    .price,
+    .compare-price,
+    .discount {
+      font-size: 20px;
+    }
+  
+    .add-to-cart-btn {
+      padding: 22px;
+      font-size: 22px;
+    }
+  }
+  

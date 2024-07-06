@@ -20,7 +20,7 @@ body {
     cursor: pointer;
     border: none;
     font-size: 30px;
-    font-weight: bold;
+  
     border-radius: 7px;
     margin-right: -7px;
   }
@@ -109,40 +109,39 @@ body {
   @media (max-width: 767px) {
     h1 {
         margin-top: 70px;
-        font-size: 40px;
+        font-size: 28px;
       }
 
     .tablink {
       width: 100%;
-      font-size: 25px;
+      font-size: 20px;
       height: 60px;
-      font-weight: bold;
     }
   
     .product-card {
       margin: 10px; 
+      margin-top: -20px;
     }
   
     .product-card img {
-        width: 460px;
-        height: 530px;
-        margin-top: -20px;
+      width: 100%;
+      height: auto;
     }
   
     .product-title {
-      font-size: 35px;
+      font-size: 25px;
     }
   
     .vendor,
     .price,
     .compare-price,
     .discount {
-      font-size: 23px;
+      font-size: 18px;
     }
   
     .add-to-cart-btn {
       padding: 20px;
-      font-size: 23px;
+      font-size: 20px;
       margin-bottom: 40px;
     }
   }
